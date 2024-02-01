@@ -1,0 +1,40 @@
+.form-wrapper {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: url(../../images/skyscrepper.jpg) no-repeat;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.form input {
+  border: none;
+  padding: 10px;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.form input:focus {
+  outline: none;
+}
+.form-btn {
+  width: 100%;
+  background-color: var(--orange-color);
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 60px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
